@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Login or Register </title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900|RobotoDraft:400,100,300,500,700,900'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="css/login.css">
+<!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/freelancer.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <style>
+
+.image{
+  visibility: hidden;
+}
+
+@media(min-width: 1600px){
+  .image{
+height: 100px;
+ width: 100px;
+  position:relative;
+   float: right; 
+margin-right: 30%;
+visibility: visible;
+}
+}
+
+
+
+  </style>
+
+
+
+
+</head>
+
+<body>
+  
+<!-- Mixins-->
+<!-- Pen Title-->
+<div class="pen-title">
+     <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+        <div  id="new">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand " href="/">hospital Management System</a>
+            </div>
+
+         
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+</div>
+<br><br><br>
+<div class="rerun"><font style="font-size:35px;">Enter your details</font></div>
+<br><br>
+ <div class="image">
+<img src="img/arrow.png">
+</div>
+<div class="container">
+
+  <div class="card"></div>
+  <div class="card">
+    <h1 class="title">Login</h1>
+    
+      <div class="input-container">
+        <input type="#{type}" id="Username" required="required"/>
+        <label for="#{label}">Username</label>
+        <div class="bar"></div>
+      </div>
+      <div class="input-container">
+        <input type="#{type}" id="Password" required="required"/>
+        <label for="#{label}">Password</label>
+        <div class="bar"></div>
+      </div>
+      <div class="button-container">
+        <button id="loginBtn"><span id="go">Go</span></button>
+      </div>
+      <div class="footer"><a href="#">Forgot your password?</a></div>
+    
+  </div>
+ 
+  <div class="card alt">
+    <div class="toggle"></div>
+    <h1 class="title">Register
+      <div class="close"></div>
+    </h1>
+      <div class="input-container">
+        <input type="#{type}" id="Username1" required="required"/>
+        <label for="#{label}">Username</label>
+        <div class="bar"></div>
+      </div>
+      <div class="input-container">
+        <input type="#{type}" id="Password1" required="required"/>
+        <label for="#{label}">Password</label>
+        <div class="bar"></div>
+      </div>
+      <div class="input-container">
+        <input type="#{type}" id="rp" required="required"/>
+        <label for="#{label}">Repeat Password</label>
+        <div class="bar"></div>
+      </div>
+      <div class="button-container">
+        <button id="register"><span id="sp">Next</span></button>
+      </div>
+  </div>
+</div>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<!--<script src="js/main.js"></script> -->
+    <script src="js/login.js"></script>
+       <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+   <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/freelancer.min.js"></script>
+    
+
+</body>
+</html>
